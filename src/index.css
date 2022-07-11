@@ -1,0 +1,155 @@
+body {
+  background-color: #2A2F44;
+  margin-bottom: 80px;
+  padding-bottom: 30px;
+  background-image: url('./images/bck.png');
+  background-size: 683px;
+  display:flex;
+  
+  
+}
+
+.App {
+  display: flex;
+  width: 500px;
+  height: 1400px;
+  background-color: #1A1B21;
+  margin-left: 31.5%;
+  border-radius: 10px;
+  margin-block: 30px;
+  position: absolute;
+  box-shadow: -10px -10px 10px #222327;
+  align-self: center;
+}
+
+.profile {
+  position: relative;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+.name {
+  position: relative;
+  margin-left: 20%;
+  padding: 20px;
+}
+
+.frontEnd {
+  color: #F3BF99;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.mailButton {
+  margin-left:55px;
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+  width:140px;
+  height: 35px;
+  box-shadow: 10px 10px 10px #222327;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.mailButton:hover {
+  cursor: pointer;
+  background-color: rgb(175, 171, 171);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttons {
+  display: flex;
+  padding: 15px;
+}
+
+.linkedin {
+  margin-left: 80px;
+  background-color: #5093E2;
+  border-radius: 5px;
+  border-style: none;
+  width:140px;
+  height: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  background-color: #2c65a5;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.infoDiv {
+  position: absolute;
+}
+
+.about {
+  position: relative;
+  margin-top: 580px;
+  margin-left: 68px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+.description {
+  color: white;
+  padding: 30px;
+  max-width: 380px;
+  margin-left: 34px;
+  line-height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  position:absolute;
+  background-color: #101011;
+  border-radius: 10px;
+}
+
+.interests {
+  position: absolute;
+  margin-top: 940px;
+  margin-left: -60px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+}
+
+.interestsDescription {
+  color: white;
+  padding: 30px;
+  max-width: 380px;
+  margin-left: -90px;
+  margin-top: 990px;
+  line-height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  position:absolute;
+  background-color: #2c65a5;
+  border-radius: 10px;
+  
+}
+
+.footer {
+  position: relative;
+  height: 80px; 
+  margin-top: 1320px;
+  background-color: #101011;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  margin-left: -123px;
+  margin-bottom: -300px;
+} 
